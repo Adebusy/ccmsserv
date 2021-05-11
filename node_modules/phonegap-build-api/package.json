@@ -1,0 +1,45 @@
+{
+    "name": "phonegap-build-api",
+    "description": "REST Client for the PhoneGap Build API",
+    "version": "1.0.0",
+    "homepage": "http://github.com/phonegap/node-phonegap-build-api",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/phonegap/node-phonegap-build-api.git"
+    },
+    "keywords": [
+        "phonegap",
+        "phonegap build"
+    ],
+    "preferGlobal": false,
+    "main": "./lib/client.js",
+    "scripts": {
+        "test": "jasmine"
+    },
+    "engines": {
+        "node": ">=6.0.0"
+    },
+    "dependencies": {
+        "request": "^2.88.0"
+    },
+    "devDependencies": {
+        "jasmine": "^3.2.0"
+    },
+    "optionalDependencies": {},
+    "contributors": [
+        {
+            "name": "Michael Brooks",
+            "email": "michael@michaelbrooks.ca",
+            "url": "http://michaelbrooks.ca/"
+        },
+        {
+            "name": " Fil Maj",
+            "email": "maj.fil@gmail.com",
+            "url": "http://filmaj.ca"
+        },
+        {
+            "name": "Jesse MacFadyen",
+            "url": "https://github.com/purplecabbage"
+        }
+    ]
+}

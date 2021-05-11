@@ -1,0 +1,27 @@
+{
+  "name": "ccmsservice",
+  "version": "1.0.0",
+  "description": "this is my first test node service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alao Ramon Adebisi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "g": "^2.0.1",
+    "joi": "^13.7.0",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.17",
+    "nodemon": "^2.0.7",
+    "phonegap": "^9.0.0",
+    "randomstring": "^1.1.5",
+    "underscore": "^1.12.0",
+    "upper-case": "^2.0.2"
+  },
+  "devDependencies": {
+    "jshint": "^2.12.0"
+  }
+}
